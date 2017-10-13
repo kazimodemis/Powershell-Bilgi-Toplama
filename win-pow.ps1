@@ -50,12 +50,3 @@ Write-Output " --------------------------------------------------"
 get-service | where-object {$_.Status -eq "Running"} | Select-Object Name
 Write-Output " --------------------------------------------------"
 
-
-
-
-
-
-
-
-
-
